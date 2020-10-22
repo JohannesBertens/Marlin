@@ -333,7 +333,7 @@
   #endif
 #endif
 
-#if !defined(PSU_POWERUP_DELAY) && ENABLED(PSU_CONTROL)
+#if !defined(PSU_POWERUP_DELAY) && ENABLED(PSU_CONTROL) && DISABLED(AUTO_POWER_CONTROL)
   #define PSU_POWERUP_DELAY 100
 #endif
 
@@ -1667,7 +1667,7 @@
 #if ENABLED(SCROLL_LONG_FILENAMES)
   #define MAX_VFAT_ENTRIES (5)
 #else
-  #define MAX_VFAT_ENTRIES (2)
+  #define MAX_VFAT_ENTRIES (5)
 #endif
 
 // Set defaults for unspecified LED user colors

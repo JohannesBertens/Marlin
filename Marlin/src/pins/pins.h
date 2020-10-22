@@ -457,12 +457,6 @@
   #include "stm32/pins_STM3R_MINI.h"            // STM32F1                                env:STM32F103RE
 #elif MB(GTM32_PRO_VB)
   #include "stm32/pins_GTM32_PRO_VB.h"          // STM32F1                                env:STM32F103RE
-#elif MB(GTM32_MINI_A30)
-  #include "stm32/pins_GTM32_MINI_A30.h"        // STM32F1                                env:STM32F103RE
-#elif MB(GTM32_MINI)
-  #include "stm32/pins_GTM32_MINI.h"            // STM32F1                                env:STM32F103RE 
-#elif MB(GTM32_REV_B)
-  #include "stm32/pins_GTM32_REV_B.h"           // STM32F1                                env:STM32F103RE
 #elif MB(MORPHEUS)
   #include "stm32/pins_MORPHEUS.h"              // STM32F1                                env:STM32F103RE
 #elif MB(CHITU3D)
@@ -493,6 +487,8 @@
   #include "stm32/pins_FYSETC_CHEETAH_V12.h"    // STM32F1                                env:STM32F103RC_fysetc
 #elif MB(LONGER3D_LK)
   #include "stm32/pins_LONGER3D_LK.h"           // STM32F1                                env:STM32F103VE_longer
+#elif MB(CREALITY)
+  #include "stm32/pins_CREALITY.h"              // STM32F1                                env:creality
 
 //
 // ARM Cortex-M4F
